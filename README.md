@@ -1,8 +1,10 @@
-# Nexorian NDL V4.1 Standard
+# Nexorian NDL V4.1
+
+This repository is a white paper and this README. It is not an ISO 26262 or IEC 61508 certificate.
+
 ### Hardware-Agnostic Bilateral Determinism for Autonomous Systems
 
 [![License: NDL-V4.1](https://img.shields.io/badge/License-NDL--V4.1-black.svg)](LICENSE)
-[![Audit Status: 100% Approval](https://img.shields.io/badge/Audit-Passed-green.svg)](#)
 
 ## 🎯 Overview
 The **Nexorian Deterministic License (NDL V4.1)** is a technical standard designed to eliminate "Instructional Jitter" and "Thermal-Drift" in high-liability environments. Traditional floating-point execution is non-deterministic across disparate silicon; NDL V4.1 mandates bit-identical results from an ESP32 to a server-grade Xeon.
